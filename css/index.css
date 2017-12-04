@@ -530,6 +530,7 @@ a.jiadianflag{
 	height: 40px;
 	background: #424242;
 	float: right;
+	z-index:200;
 	position: relative;
 }
 .gouwuche{
