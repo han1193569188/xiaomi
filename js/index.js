@@ -1,8 +1,12 @@
 $(function () {
+	let t6;
 	$(".shopcar").hover(function () {
-		$(".popup_shop").slideDown(500);
+	    clearTimeout(t6);
+	    t6=setTimeout(function () {
+            $(".popup_shop").slideDown(200);
+        },200);
     },function () {
-        $(".popup_shop").slideUp(500);
+        $(".popup_shop").slideUp(200);
     });
 
 
